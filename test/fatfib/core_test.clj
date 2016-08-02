@@ -3,10 +3,10 @@
         [fatfib.core :refer :all]))
 
 (deftest a-test
-    (testing "Testing Fatorial."
-        (is (= (fatorial 0) 1))
-        (is (= (fatorial 4) 24))
-        (is (= (fatorial 5) 120)))
+    (testing "Testing Factorial."
+        (is (= (factorial 0) 1))
+        (is (= (factorial 4) 24))
+        (is (= (factorial 5) 120)))
 
     (testing "Testing Fibonacci."
         (is (= (fibonacci 0) 1))

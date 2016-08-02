@@ -1,7 +1,7 @@
 (ns fatfib.core
     (:gen-class))
 
-(defn fatorial [n]
+(defn factorial [n]
     (loop [i n acc 1]
         (if (= i 0)
             acc
@@ -25,7 +25,7 @@
     (def nums (vector 0 1 2 3 4 5 6))
     (println)
     (println "Fatorial: \n")
-    (printSeq nums fatorial)
+    (printSeq nums factorial)
     (println)
     (println "Fibonacci: \n")
     (printSeq nums fibonacci)
